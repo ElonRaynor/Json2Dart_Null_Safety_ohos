@@ -1,3 +1,8 @@
+## 1.6.0
+
+- OpenHarmony platform support
+- Support Flutter 3.22.1-ohos and 3.35.8-ohos
+
 ## 1.5.8
 
 - spport multi keys to parse bool

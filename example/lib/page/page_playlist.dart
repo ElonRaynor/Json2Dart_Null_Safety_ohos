@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:gesound/common/model/category_model.dart';
 import 'package:gesound/common/model/playlist_model.dart';
 import 'package:gesound/common/utils/navigator_util.dart';
+import 'package:gesound/page/page_api_demo.dart';
 import 'package:gesound/page/page_category.dart';
 import 'package:gesound/page/page_playlist_detail.dart';
 import 'package:gesound/res/index.dart';
@@ -38,6 +39,15 @@ class _PagePlaylistState extends State<PagePlaylist> with TickerProviderStateMix
     return CustomScaffold(
       automaticallyImplyLeading: false,
       titleId: Ids.playlist,
+      actions: [
+        IconButton(
+          icon: const Icon(Icons.code),
+          tooltip: 'API Demo',
+          onPressed: () {
+            Get.toNamed(PageApiDemo.routeName);
+          },
+        ),
+      ],
       body: _buildBody(),
     );
   }

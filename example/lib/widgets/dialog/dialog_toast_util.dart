@@ -1,4 +1,4 @@
-import 'package:flustars/flustars.dart';
+import 'package:flustars_flutter3/flustars_flutter3.dart';
 import 'package:flutter/material.dart';
 import 'package:gesound/common/model/category_model.dart';
 import 'package:gesound/common/model/playlist_model.dart';

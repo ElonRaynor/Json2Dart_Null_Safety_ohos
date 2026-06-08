@@ -1,3 +1,4 @@
+import 'package:gesound/page/page_api_demo.dart';
 import 'package:gesound/page/page_splash.dart';
 import 'package:get/get.dart';
 
@@ -20,6 +21,10 @@ class AppPages {
     _page(
       name: PageSplash.routeName,
       page: () => const PageSplash(),
+    ),
+    _page(
+      name: PageApiDemo.routeName,
+      page: () => const PageApiDemo(),
     ),
   ];
 

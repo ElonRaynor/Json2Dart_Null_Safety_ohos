@@ -1,0 +1,10 @@
+{
+  "module": {
+    "name": "json2dart_safe",
+    "type": "har",
+    "deviceTypes": [
+      "default",
+      "tablet"
+    ]
+  }
+}

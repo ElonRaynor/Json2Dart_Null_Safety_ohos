@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:flustars/flustars.dart';
+import 'package:flustars_flutter3/flustars_flutter3.dart';
 import 'package:gesound/common/model/audio_model.dart';
 import 'package:gesound/database/db_manager.dart';
 import 'package:json2dart_db/json2dart_db.dart';

@@ -38,7 +38,7 @@ class DataBaseController extends GetxController {
     } catch (e) {
       debugPrint(e.toString());
     }
-    if (_categories == null) {
+    if (_categories == null || _categories.isEmpty) {
       _categories = [CategoryModel.music(), CategoryModel.novel()];
       _categoryDao.insertAll(_categories);
     }

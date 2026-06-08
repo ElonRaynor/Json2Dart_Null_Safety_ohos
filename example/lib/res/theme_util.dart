@@ -20,7 +20,7 @@ class ThemeUtil {
             // textStyle: TextStyle(color: Colours.app_main),
             ),
       ),
-      tabBarTheme: const TabBarTheme(
+      tabBarTheme: const TabBarThemeData(
         labelColor: Colors.white,
         labelStyle: TextStyles.whiteW50014,
         unselectedLabelStyle: TextStyles.whiteW50014,
